@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap/scss/bootstrap";
+
+h2 {
+  color: rgb(53, 124, 183);
+}
+
+.container {
+  margin: auto 200px;
+  text-decoration: none;
+}

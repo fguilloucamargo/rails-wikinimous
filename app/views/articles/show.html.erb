@@ -1,0 +1,10 @@
+<div class="container">
+  <div>
+    <h2><%= @article.title %></h1>
+    <p><%= @article.content %></p>
+  </div>
+  <div><%= link_to "Back to articles", articles_path %></div>
+  <div><%= link_to "Edit article", edit_article_path(@article) %></div>
+</div>
+
+
